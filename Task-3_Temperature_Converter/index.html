@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>temp_conv</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/Navbar-Centered-Brand-Dark-icons.css">
+    <script src="myscr.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark navbar-expand-md bg-dark py-3">
+        <div class="container"><a class="navbar-brand d-flex align-items-center" href="#"><span class="bs-icon-sm bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center me-2 bs-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-96 0 512 512" width="1em" height="1em" fill="currentColor" class="fs-1">
+                        <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                        <path d="M176 322.9V112c0-8.75-7.25-16-16-16s-16 7.25-16 16v210.9c-18.62 6.625-32 24.25-32 45.13c0 26.5 21.5 48 48 48s48-21.5 48-48C208 347.1 194.6 329.5 176 322.9zM272 278.5V112c0-61.87-50.12-112-111.1-112S48 50.13 48 112v166.5c-19.75 24.75-32 55.5-32 89.5c0 79.5 64.5 143.1 144 143.1S304 447.5 304 368C304 334 291.8 303.1 272 278.5zM160 448c-44.13 0-80-35.87-80-79.1c0-25.5 12.25-48.88 32-63.75v-192.3c0-26.5 21.5-48 48-48s48 21.5 48 48v192.3c19.75 14.75 32 38.25 32 63.75C240 412.1 204.1 448 160 448z"></path>
+                    </svg></span><span class="fs-3">Temperature Converter</span></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-6"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse flex-grow-0 order-md-first" id="navcol-6">
+                <ul class="navbar-nav me-auto"></ul>
+                <div class="d-md-none my-2"><button class="btn btn-light me-2" type="button">Button</button><button class="btn btn-primary" type="button">Button</button></div>
+            </div>
+            <div class="d-none d-md-block"></div>
+        </div>
+    </nav>
+    <div class="dropdown" style="margin-top: 68px;margin-right: 0px;margin-left: 535px;"><button class="btn btn-primary dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" type="button" style="margin-left: 0px;" id="myid1">Choose input temp </button>
+        <div class="dropdown-menu"><button class="dropdown-item" href="#" id="submit1">Celsius</button><button class="dropdown-item" href="#" id="submit2">Fahrenheit</button><button class="dropdown-item" href="#" id="submit3">Kelvin</button></div>
+    </div><label class="form-label fs-4 fw-semibold text-primary" style="margin-top: 24px;margin-left: 116px;">Enter Degree:</label><input type="number" id="mytemp" placeholder = "Enter only numbers" style="margin-left: 39px;"><button class="btn btn-primary fs-5 mx-4 my-4" id = "celbn" type="button" style="width: 193.5px;margin-left: 30px;margin-top: -7px;">Convert to Celsius</button><button class="btn btn-primary fs-5 mx-4 my-4" id = "kelbn" type="button" style="width: 193.5px;margin-left: 30px;margin-top: -7px;">Convert to Kelvin</button><button class="btn btn-primary fs-5 mx-4 my-4" id = "fbn" type="button" style="width: 221.5px;margin-left: 30px;margin-top: -7px;">Convert to Fahrenheit</button>
+    
+    <label class="form-label fs-4 fw-semibold text-success" style="margin-top: 24px;margin-left: 116px;" id="res"></label>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    
+</body>
+<script src="myscr.js"></script>
+</html>
