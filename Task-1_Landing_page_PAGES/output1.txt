@@ -1,0 +1,11 @@
+20MIS0313 temp123
+
+let output = username+" "+password
+    fs.writeFileSync('output1.txt', output)
+    if(username == "20MIS0313" && password == "temp123"){
+        
+        res.status(200).render('main.ejs');
+    }
+    else{
+        res.status(200).render('login.ejs');
+    }
